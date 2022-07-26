@@ -1,6 +1,7 @@
-========================
-BUILD OUTPUT DESCRIPTION
-========================
+# Punto de venta 'Transporte de antorcha "Región Mixteca"'
+> Este es un punto de venta, que fue crado en la universidad para un sitio transportes.
+
+# Build Output Description
 
 When you build an Java application project that has a main class, the IDE
 automatically copies all of the JAR
