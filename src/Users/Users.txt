@@ -1,0 +1,6 @@
+1,administrador,admin,
+2,marcos,marcos,
+3,rodolfo,rodo,
+4,alejandro,ale,
+5,Ireneo,ire,
+6,leonardo,psociety,

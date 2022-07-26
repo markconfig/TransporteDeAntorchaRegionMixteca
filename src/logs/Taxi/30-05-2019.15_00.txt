@@ -1,0 +1,4 @@
+1_Taxi_15:00_Disponible_
+2_Taxi_15:00_Disponible_
+3_Taxi_15:00_Ocupado_
+4_Taxi_15:00_Disponible_
