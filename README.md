@@ -1,4 +1,4 @@
-# Punto de venta 'Transporte de antorcha "Región Mixteca"'
+# Punto de venta Transporte de antorcha "Región Mixteca"
 > Este es un punto de venta, que fue crado en la universidad para un sitio transportes.
 
 # Build Output Description
