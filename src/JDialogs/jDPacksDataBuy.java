@@ -35,10 +35,10 @@ public class jDPacksDataBuy extends javax.swing.JDialog {
     public static String getSeparador() {
         String separador = File.pathSeparator; // obtenemos ";" o ":"
         if (separador.equals(";")) { // si es Windows
-            separador = "/";
+            separador = "\\";
         }
         if (separador.equals(":")) { // Si es mac o linux
-            separador = "\\";
+            separador = "/";
         }
         return separador;
     }

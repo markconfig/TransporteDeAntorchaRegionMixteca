@@ -77,12 +77,16 @@ public class jDticketsBuy extends javax.swing.JDialog {
     public String getSeparador() {
 
         String separador = "";
+                  
+
         separador = File.pathSeparator; // obtenemos ";" o ":"
+          System.out.println("Separador antes" +separador);
         if (separador.equals(";")) { // si es Windows
-            separador = "/";
+            separador = "\\";
+            System.out.println("Separador despues" +separador);
         }
         if (separador.equals(":")) { // Si es mac o linux
-            separador = "\\";
+            separador = "/";
         }
         return separador;
     }
@@ -362,7 +366,7 @@ public class jDticketsBuy extends javax.swing.JDialog {
     }
 
     private void CrearArchivo(String trans) {
-        String filePath = barra + "src" + barra + "logs" + barra + trans + barra;
+        String filePath ="src" + barra + "logs" + barra + trans + barra;
         
         String nombreArchivo = Data.getDate() + "." + Data.getHora() + ".txt";
         // File Direccion = new File(filePath);
